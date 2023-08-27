@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    background-color: rgb(51, 234, 136);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+
+    
+
+    .logo{
+        width: 30%;
+        margin-right: 100px;
+    }
+
+    .menu{
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    a{
+        color:white;
+        padding: 6px 12px;
+        width: 80px;
+    }
+
+    a:hover{
+     border: 1px solid white;
+     text-decoration: none;
+     padding: 8px 12px;
+     width: 80px;
+    }
+  
+
+    a.nuxt-link-exact-active {
+        color: rgb(38, 199, 38);
+        width: 80px;
+        background-color: white;
+       align-items: center;
+       padding: 6px 12px;
+
+      }
+
+}
+
