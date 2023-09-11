@@ -9,6 +9,7 @@
             <nuxt-link to="/">News</nuxt-link>
             <nuxt-link to="/about">About</nuxt-link>
             <nuxt-link to="/contact">Contact</nuxt-link>
+            <nuxt-link to="/test">Test</nuxt-link>
         </div>
     </div>
 </template>
