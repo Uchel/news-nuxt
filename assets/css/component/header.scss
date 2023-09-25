@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    background-color: rgb(51, 234, 136);
+    background-color: rgb(8, 61, 33);
     padding: 20px 30px;
     box-sizing: border-box;
     justify-content: flex-start;
@@ -14,6 +14,7 @@
     .logo{
         width: 30%;
         margin-right: 100px;
+        color: white;
     }
 
     .menu{
@@ -26,20 +27,20 @@
     a{
         color:white;
         padding: 6px 12px;
-        width: 80px;
+        width: 100px;
     }
 
     a:hover{
      border: 1px solid white;
      text-decoration: none;
      padding: 8px 12px;
-     width: 80px;
+     width: 100px;
     }
   
 
     a.nuxt-link-exact-active {
-        color: rgb(38, 199, 38);
-        width: 80px;
+        color: rgb(28, 99, 28);
+        width: 100px;
         background-color: white;
        align-items: center;
        padding: 6px 12px;

@@ -36,5 +36,13 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'news-detail',
+        path: '/news/:title',
+        component: resolve(__dirname, 'pages/news/_title.vue'),
+      });
+    },
+  },
 }

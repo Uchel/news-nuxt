@@ -7,6 +7,6 @@
 </template>
 
 
-<style src="../assets/css/footer.scss" lang="scss">
+<style src="../assets/css/component/footer.scss" lang="scss">
 
 </style>

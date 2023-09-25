@@ -7,11 +7,11 @@
         </div>
         <div class="menu">
             <nuxt-link to="/">News</nuxt-link>
-            <nuxt-link to="/about">About</nuxt-link>
-            <nuxt-link to="/contact">Contact</nuxt-link>
-            <nuxt-link to="/test">Test</nuxt-link>
+            <!-- <nuxt-link to="/tugas3">Tugas-3</nuxt-link>
+            <nuxt-link to="/tugas4">Tugas-4</nuxt-link> -->
+            <nuxt-link to="/tugas5">Tugas-5</nuxt-link>
         </div>
     </div>
 </template>
 
-<style src="../assets/css/header.scss" lang="scss"></style>
+<style src="../assets/css/component/header.scss" lang="scss"></style>

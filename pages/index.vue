@@ -4,9 +4,10 @@
     Categories
   </h2>
   <div>
-    <input placeholder="categori berita"/>
+    <input placeholder="categori berita" type="text"/>
     <button>cari</button>
   </div>
+  <NewsCategories/>
 </div>
 </template>
 

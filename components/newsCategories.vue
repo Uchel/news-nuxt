@@ -121,4 +121,4 @@ export default {
   },
 }
 </script>
-<style src="../assets/css/newsCategories.scss" lang="scss"></style>
+<style src="../assets/css/component/newsCategories.scss" lang="scss"></style>

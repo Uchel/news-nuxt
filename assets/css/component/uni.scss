@@ -1,0 +1,38 @@
+//News Card ===========================================
+.news-card{
+    text-decoration: none;
+    width: 300px;
+    height: 480px;
+    background-color: pink;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    h3{
+        color: black;
+        font-weight: bold;
+        
+    }
+    p{
+        color: black;
+    }
+}
+
+.news-card:hover{
+    background-color: greenyellow;
+    text-decoration: none;
+    h3{
+        text-decoration: none;
+    }
+    p{
+        text-decoration: none;
+    }
+}
+//===============================================================
