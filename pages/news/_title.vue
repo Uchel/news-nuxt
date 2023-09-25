@@ -1,6 +1,6 @@
 <!-- pages/news/_title.vue -->
 <template>
-  <div>
+  <div class="news-detail">
     <h1>{{ title }}</h1>
     <img :src="img" :alt="title" />
     <p>{{ description }}</p>
@@ -19,3 +19,5 @@ export default {
   },
 };
 </script>
+
+<style src="../../assets/css/pg/news_title.scss" lang="scss"></style>
